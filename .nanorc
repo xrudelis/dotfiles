@@ -1,0 +1,29 @@
+#set afterends
+set autoindent
+set constantshow
+set nohelp
+set nowrap
+set quickblank
+set regexp
+set smarthome
+set smooth
+set speller "aspell -x -c"
+set tabsize 4
+set tabstospaces
+set unix
+
+bind ^Space mark all
+bind ^C copy main
+bind ^F whereis main
+bind ^L gotoline main
+bind ^S writeout all
+bind ^U unindent all
+bind ^V paste main
+bind ^W exit all
+bind ^X cut all
+bind ^Y redo all
+bind ^Z undo all
+bind F13 prevword main
+bind F14 nextword main
+
+include "/usr/share/nano/*.nanorc"
