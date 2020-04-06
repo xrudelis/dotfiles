@@ -1,2 +1,2 @@
-ln -sv ./.tmux.conf ~/
-ln -sv ./.nanorc ~/
+ln -sv $PWD/.tmux.conf ~/
+ln -sv $PWD/.nanorc ~/
