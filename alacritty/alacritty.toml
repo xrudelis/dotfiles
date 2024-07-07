@@ -1,0 +1,7 @@
+import = ["/home/xander/.config/alacritty/themes/themes/atom_one_light.toml"]
+
+[env]
+SHELL = "/bin/zsh"
+
+[font]
+size = 10.0
